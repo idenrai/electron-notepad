@@ -8,6 +8,10 @@
   },
   "author": "Youngjae Kwon",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idenrai/electron-notepad"
+  },
   "devDependencies": {
     "electron": "^1.6.11",
     "grunt": "^0.4.5",
