@@ -1,0 +1,58 @@
+<!--
+/*
+ * index.html
+ */
+ -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Electron Notepad</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- Begin: app\html\include\link.html -->
+  <!--
+  /*
+   * link.html
+   */
+   -->
+  <script src="../js/lib/jquery-3.2.1.min.js"></script>
+  <script src="../js/lib/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/memo.js"></script>
+<!-- End: app\html\include\link.html -->
+<!-- Begin: app\html\include\memo.html -->
+  <!--
+  /*
+   * memo.html
+   */
+   -->
+  <table class="table table-striped">
+    <tr>
+      <td style="text-align: left; width: 100px;">テキスト入力</td>
+      <td colspan="2" style="text-align:left; width:300px;">
+        <textarea id="ntText" class="input-xxlarge" style="width:95%; height:200px;" maxlength="4000"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td>ファイル名</td>
+      <td>
+        <input type="text" class="form-control"  id="nmSaveFile" />
+      </td>
+      <td>
+        <button class="btn btn-default btn-primary" onclick="saveTxt()">保存する</button>
+      </td>
+    </tr>
+    <tr>
+      <td>ファイル選択</td>
+      <td>
+        <input type="file" class="form-control"  id="nmLoadFile" />
+      </td>
+      <td>
+        <button class="btn btn-default btn-primary" onclick="loadTxt()">ロードする</button>
+      </td>
+    </tr>
+  </table>
+<!-- End: app\html\include\memo.html -->
+</body>
+</html>
