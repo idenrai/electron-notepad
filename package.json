@@ -10,7 +10,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/idenrai/electron-notepad"
+    "url": "https://github.com/idenrai/electron-notepad.git"
   },
   "devDependencies": {
     "electron": "^1.6.11",
