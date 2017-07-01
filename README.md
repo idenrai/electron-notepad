@@ -16,14 +16,15 @@ Qiitaで作成してた投稿の実習部分をGithubにも載せてみた。
 
         $ npm i -g electron-packager
 
--   grunt-cli Global Dl
-        $ npm i -g grunt-cli
+-   grunt-cli Global DL
 
-##### 稼働
+        $ npm i -g grunt-cli
 
 -   他のnode modules DL
 
         $ npm install
+
+##### 稼働
 
 -   GruntをDefaultで実行
 
